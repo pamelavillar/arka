@@ -16,6 +16,7 @@ body {
   display: flex;
 }
 
+
 .sidebar {
   width: 220px;
   background: var(--color-white);

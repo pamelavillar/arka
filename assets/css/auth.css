@@ -1,0 +1,118 @@
+body {
+  display: flex;
+  justify-content: center;   /* centra horizontalmente */
+  align-items: center;       /* centra verticalmente */
+  height: 100vh;             /* ocupa toda la altura de la ventana */
+  margin: 0;
+  background-color: #f4f4f4; 
+  font-family: Arial, sans-serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;                /* espacio entre los inputs */
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  width: 300px;
+}
+
+form h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+input, button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn-oscuro {
+  background-color: rgb(95, 122, 134);
+  border: none;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.btn-oscuro:hover {
+  background-color: rgb(75, 102, 114);
+}
+
+.logo-bottom-container {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  /*margin-top: 20px;*/
+}
+
+.logo-top {
+  width: 250px;      
+  height: auto;   
+  display: block;
+  margin: 0 auto 20px auto;  /* centra la imagen y deja espacio abajo */
+}
+
+.logo-bottom {
+  width: 200px;
+  height: auto;
+  display: block;
+  margin: 20px auto 0 auto;  /* centra abajo */
+}
+.perfil-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
+
+.perfil-page h1 {
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.perfil-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 30px;
+  width: 80%;
+  max-width: 700px;
+}
+
+.perfil-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  border-radius: 15px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.perfil-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.perfil-icon {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  background-color: white;
+}
+
+.perfil-name {
+  font-size: 18px;
+}
