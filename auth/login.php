@@ -1,7 +1,6 @@
 <?php
 session_start();
 
-// Ejemplo simple (luego conectarás a DB)
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   $user = $_POST['username'];
   $pass = $_POST['password'];

@@ -1,5 +1,4 @@
 <?php
-  // Obtener la página actual desde el parámetro GET, o 'conceptos' por defecto
   $current_page = isset($_GET['page']) ? $_GET['page'] : 'conceptos';
 ?>
 <div class="sidebar">

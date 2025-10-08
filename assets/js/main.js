@@ -1,4 +1,3 @@
-// === Modal calendario ===
 const selectsFrecuencia = document.querySelectorAll(".frecuencia");
 const modal = document.getElementById("modalCalendario");
 const closeBtn = document.querySelector(".modal .close");

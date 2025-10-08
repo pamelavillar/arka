@@ -5,7 +5,7 @@ if (!isset($_SESSION['user_name'])) {
   $_SESSION['user_name'] = 'Guillermo Calderón';
 }
 
-$page = $_GET['page'] ?? 'conceptos'; // por defecto
+$page = $_GET['page'] ?? 'conceptos'; 
 $valid_pages = ['entrada_diaria', 'conceptos', 'balance', 'perfiles'];
 
 if (!in_array($page, $valid_pages)) {

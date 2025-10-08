@@ -16,8 +16,6 @@ body {
   display: flex;
 }
 
-/* Sidebar */
-/* === Sidebar general === */
 .sidebar {
   width: 220px;
   background: var(--color-white);
@@ -113,8 +111,8 @@ body {
 }
 
 .user-card .user-icon {
-  font-size: 3rem; /* controla el tamaño del ícono */
-  color:#666; /* opcional, puedes darle color */
+  font-size: 3rem;
+  color:#666; 
 }
 
 .user-actions {
@@ -244,7 +242,6 @@ body {
     margin: 0.5rem;
 }
 
-/* Formulario lateral (dentro del main) */
 .sidebar-right {
   flex: 1;
   background: var(--color-white);
@@ -287,7 +284,7 @@ margin-top: 0.5rem;
 }
 
 .color-picker input {
-display: none; /* ocultamos los radios */
+display: none; 
 }
 
 .color-picker label {
@@ -301,21 +298,20 @@ transition: 0.2s;
 }
 
 .color-picker input:checked + label {
-border: 3px solid #333; /* resalta el color seleccionado */
+border: 3px solid #333;
 }
 
 .section-title {
 color: #666;
 font-size: 0.9rem;
 font-weight: 600;
-margin: 1.5rem 0 1rem 0; /* arriba - derecha - abajo - izquierda */
+margin: 1.5rem 0 1rem 0;
 padding-bottom: 0.5rem;
-border-bottom: 1px solid #ddd; /* línea divisoria */
+border-bottom: 1px solid #ddd; 
 }
 
-/* Modal */
 .modal {
-display: none; /* oculto por defecto */
+display: none;
 position: fixed;
 z-index: 1000;
 left: 0; top: 0;
@@ -340,7 +336,6 @@ font-size: 24px;
 cursor: pointer;
 }
 
-/* Botones */
 .actions {
   display: flex;
   justify-content: right;
