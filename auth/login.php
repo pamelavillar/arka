@@ -29,7 +29,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <?php if (!empty($error)) echo "<p style='color:red'>$error</p>"; ?>
     <input type="text" name="username" placeholder="Usuario" required>
     <input type="password" name="password" placeholder="Contraseña" required>
-    <a href="reset_password.php" class="link-reset">¿Olvidaste tu contraseña?</a>
+    <a href="recuperar_cuenta.php" class="link-reset">¿Olvidaste tu contraseña?</a>
     <button type="submit" class="btn btn-oscuro">Entrar</button>
     <p>¿No tienes una cuenta? <a href="registro.php" class="btn-create">Crea una nueva aquí!</a></p>
     <div class="logo-bottom-container">
